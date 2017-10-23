@@ -1,0 +1,44 @@
+body {
+  background: url(https://78.media.tumblr.com/c6288dc9c34d1e2af4054c83e6235447/tumblr_o8hh4eDOWW1ucpvkqo1_500.gif);
+  font-family: sans-serif;
+}
+
+nav {
+  /*outline: 1px solid yellow;*/
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  background: #2e2e2a;
+  line-height: 40px;
+  overflow :auto; /* ...para que devuelva su contexto de bloque con los elementos flotados y se muestre los valores del contenedor...solo se utiliza con el float*/
+}
+
+li {
+  width: 100px;
+  /*display: inline-block;...funciona en vez de flot:left*/
+  text-align: center;
+  float:left; /*quita la estructura de bloque y hace que se posicione en bloques*/
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+a:hover {
+  background:#f9a91a;
+  color:#000;
+}
+
+a:active {
+  background:#118c67;
+  color:#060946;
+}
